@@ -1,21 +1,29 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
 int inputnumber,
 
-printf("Enter the number"), scanf("%d",&inputnumber); int result-Evenodd (inputnumber); printf("Result %d", result),
+printf("Enter the number");
+  scanf("%d",&inputnumber); 
+  int result-Evenodd (inputnumber);
+  printf("Result %d", result);
 
 return 0;
 }
 
-int Evenodd(int number){
+int Evenodd(int number)
+{
 
 if (number 2==0)
 
-{return 1;
+{
+  return 1;
 
-} else{
+} 
+else
+{
 
 return 2;
 }
